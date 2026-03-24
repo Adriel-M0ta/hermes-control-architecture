@@ -20,7 +20,11 @@ Este valor foi alcançado através da redução drástica do *downtime* (tempo d
 
 ## 💻 Showcase Técnico (Demonstração Mudo - 1min)
 
-*Aqui você vai colar o GIF ou o link para o vídeo mudo apresentando as telas do sistema seguindo o roteiro que definimos.*
+
+
+
+https://github.com/user-attachments/assets/cb0c1380-0ebf-4a95-8b76-5ee203722be1
+
 
 ---
 

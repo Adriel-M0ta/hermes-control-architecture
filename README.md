@@ -3,7 +3,7 @@ Sistema de monitoramento IoT e Dashboard para +210 impressoras, gerando R$ 80k d
 
 
 [![GCP](https://img.shields.io/badge/Google_Cloud_Platform-(GCP)-blue?style=flat&logo=google-cloud)](https://cloud.google.com/)
-[![Python](https://img.shieldsio/badge/Language-Python_3.10+-blue?style=flat&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Language-Python_3.10+-blue?style=flat&logo=python)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Firestore](https://img.shields.io/badge/Database-Firestore_(NoSQL)-blue?style=flat&logo=firebase)](https://firebase.google.com/products/firestore)
 
@@ -59,8 +59,6 @@ O sistema foi desenhado sob uma arquitetura serverless na Google Cloud Platform 
 +------------------+     Dados Estruturados | (SWR Cache)      |
                                              +------------------+
 
----
-
 ## 🔥 Desafios de Engenharia de Dados Superados
 
 O ambiente logístico impôs desafios críticos de confiabilidade e performance na rede, que foram mitigados através de lógica pura no backend:
@@ -79,6 +77,6 @@ Impressoras térmicas (Zebra ZT411) possuem processadores limitados e podem trav
 
 O sistema transforma telemetria bruta em visualizações acionáveis para a gestão Selbetti/Mercado Livre:
 
-1.  **Gêmeo Digital (Heatmap):** Visualização geográfica e de status de conectividade em tempo real de todos os ativos operacionais.
-2.  **Manutenção Preditiva:** Lógica que calcula o desgaste da cabeça térmica baseada na telemetria de quilometragem acumulada, antecipando falhas antes que elas parem a operação.
-3.  **Auditoria de Custos:** Relatório consolidado que cruza o volume impresso real com o custo estimado de suprimentos, permitindo uma gestão financeira precisa.
+1. **Gêmeo Digital (Heatmap):** Visualização geográfica e de status de conectividade em tempo real de todos os ativos operacionais.
+2. **Manutenção Preditiva:** Lógica que calcula o desgaste da cabeça térmica baseada na telemetria de quilometragem acumulada, antecipando falhas antes que elas parem a operação.
+3. **Auditoria de Custos:** Relatório consolidado que cruza o volume impresso real com o custo estimado de suprimentos, permitindo uma gestão financeira precisa.

@@ -43,19 +43,19 @@ The system was designed with a serverless architecture on Google Cloud Platform 
                                                        |
                                                        | (Processing / ETL)
                                                        v
-+-----------------+      (JSON Injection)   +------------------+
-| GCP Firestore   | <---------------------- | Rule Engine &    |
-| Database (NoSQL)|                         | Sanitization     |
-| (JSON Collections)|                       | (Pandas)         |
-+-----------------+                         +------------------+
++-------------------+      (JSON Injection)   +------------------+
+| GCP Firestore     | <---------------------- | Rule Engine &    |
+| Database (NoSQL)  |                         | Sanitization     |
+| (JSON Collections)|                         | (Pandas)         |
++-------------------+                         +------------------+
         |
         | (API Consumption)
         v
 +------------------+      (Single Page App)  +------------------+
 | GCP Cloud        | <---------------------- | Dashboard        |
-| Functions        |   Requests (Serverless)| Reactive (SPA)   |
+| Functions        |   Requests (Serverless) | Reactive (SPA)   |
 | Node/TS Logic    | ----------------------> | Visualization    |
-+------------------+     Structured Data    | (SWR Cache)      |
++------------------+     Structured Data     | (SWR Cache)      |
                                              +------------------+
 ```
 
